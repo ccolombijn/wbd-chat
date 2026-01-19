@@ -1,0 +1,11 @@
+User-agent: SemrushBot
+User-agent: SemrushBot-SA
+User-agent: AhrefsBot
+User-agent: MJ12bot
+User-agent: PetalBot
+User-agent: Owlin
+User-agent: trendictionbot
+User-agent: dotbot
+User-agent: scooperbot
+Disallow: /
+
