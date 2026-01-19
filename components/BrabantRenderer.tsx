@@ -35,10 +35,6 @@ export default function BrabantRenderer({ htmlContent }: Props) {
         }
         
     
-        if (domNode.name === 'link' && domNode.attribs.rel === 'stylesheet') {
-            return domToReact([domNode], options);
-        }
-
         
         if (['html', 'head', 'body'].includes(domNode.name)) {
              return <>{domToReact(domNode.children as DOMNode[], options)}</>;
@@ -68,11 +64,8 @@ export default function BrabantRenderer({ htmlContent }: Props) {
         /* Fix voor afbeeldingen */
         img { max-width: 100%; height: auto; }
       `}</style>
-      
-     
-      <div id="__next">
-         {parse(cleanHtml, options)}
-      </div>
+
+      {parse(cleanHtml, options)}
     </root.div>
   );
 }
