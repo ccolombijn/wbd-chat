@@ -12,15 +12,27 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"Carlito",Helvetica, sans-serif;
+  font-size: 1.125rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, "Carlito", sans-serif;
+}
+
+textarea:focus-visible {
+  outline: none;
+  border-style: dashed;
+  border-width: 3px;
+  border-color: var(--foreground);
+
+ 
+    background: var(--focusBackgroundColor);
+    outline: 3px dotted rgb(80, 80, 80);
+    outline-offset: calc(-1 * 3px);
+    box-shadow: var(--focusBoxShadow);
+    border-color: rgba(0, 0, 0, 0);
 }
