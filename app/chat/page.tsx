@@ -64,17 +64,17 @@ export default function Chat() {
         <div className="flex min-h-screen flex-col bg-zinc-50">
             <div className="bg-blue-900 text-white p-4 w-full">
                 <div className="container px-auto mx-auto">
-                    <h1 className="text-2xl ">Stel ons een Vraag</h1>
+                    <h1 className="text-4xl ">Stel ons een Vraag</h1>
                 </div>
             </div>
             
             <div className="container mx-auto p-4 flex-1 flex flex-col gap-4 overflow-y-auto">
-                 <div className="flex justify-center">
-                    <img src="/logo-wsbd.png" alt="WSBD Logo" className="h-16 object-contain" />
+                 <div className="flex justify-center mt-8">
+                    <img src="/logo-wsbd.png" alt="WSBD Logo" className="h-16  object-contain" />
                 </div>
                 
                 {messages.length === 0 && (
-                    <p className="text-center text-gray-500 mt-4">Stel ons iedere vraag over Waterschap Brabantse Delta.</p>
+                    <p className="text-center text-2xl text-gray-500 mt-4">Vragen over Waterschap Brabantse Delta? Stel ze hier en we geven je direct antwoord.</p>
                 )}
 
                 {messages.map((msg, index) => (
@@ -84,7 +84,21 @@ export default function Chat() {
                                 ? 'bg-blue-900 text-white rounded-br-none' 
                                 : 'bg-white border border-gray-200 rounded-bl-none shadow-sm'
                         }`}>
-                            <ReactMarkdown>{msg.text}</ReactMarkdown>
+                            {/*<ReactMarkdown>{msg.text}</ReactMarkdown>*/}
+                            <ReactMarkdown
+    components={{
+        a: ({ node, ...props }) => (
+            <a 
+                {...props} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-600 underline hover:text-blue-800" // Optioneel: maakt links duidelijk zichtbaar
+            />
+        )
+    }}
+>
+    {msg.text}
+</ReactMarkdown>
                         </div>
                     </div>
                 ))}
@@ -99,23 +113,24 @@ export default function Chat() {
                 <div ref={messagesEndRef} />
             </div>
 
-            <div className="container mx-auto p-4 sticky bottom-0 bg-zinc-50">
+            <div className="container mx-auto p-4 sticky bottom-0">
                 <div className="relative">
                     {suggestions.length > 0 && (
-                        <div className="flex gap-2 mb-2 overflow-x-auto pb-2">
+                        <div className="flex gap-2 mb-2 overflow-x-auto bg-linear-to-b from-transparent to-zinc-50 pb-4">
                             {suggestions.map((suggestion, index) => (
                                 <button 
                                     key={index} 
                                     onClick={() => handleSend(suggestion)}
-                                    className="whitespace-nowrap bg-white border border-blue-900 text-blue-900 px-4 py-2 rounded-full text-sm hover:bg-blue-50 transition-colors shadow-sm"
+                                    className="whitespace-nowrap bg-white border border-blue-900 text-blue-900 px-4 py-2 rounded-full text-lg hover:bg-blue-50 transition-colors shadow-sm"
                                 >
                                     {suggestion}
                                 </button>
                             ))}
                         </div>
                     )}
-                    <textarea 
-                        className="w-full h-32 p-6 border border-solid border-gray-300 rounded-2xl resize-none focus:outline-none focus:ring-2 focus:ring-blue-900 pr-24" 
+                    <div className="flex bg-zinc-50 -mt-4 pb-4">
+                        <textarea 
+                        className="w-full h-32 p-6 border border-solid border-gray-300 rounded-2xl resize-none focus:outline-none focus:ring-2 focus:ring-blue-900 pr-24 bg-zinc-50" 
                         placeholder="Stel uw vraag..."
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
@@ -133,6 +148,7 @@ export default function Chat() {
                     >
                         Verstuur
                     </button>
+                    </div>
                 </div>
             </div>
         </div>

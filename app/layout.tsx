@@ -20,8 +20,8 @@ const carlito = Carlito({
 
 
 export const metadata: Metadata = {
-  title: "WSBD Next.js Chatbot Demo",
-  description: "Demonstratie van een Next.js chatbot voor Waterschap Brabantse Delta",
+  title: "WSBD Chatbot Demo",
+  description: "Demonstratie chatbot voor Waterschap Brabantse Delta",
 };
 
 export default function RootLayout({

@@ -12,8 +12,8 @@ export default function Home() {
           priority
         />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-zinc-400">
-            Waterschap Brabantse Delta Next.js Chatbot Demo
+          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-sky-500">
+            Waterschap Brabantse Delta Chatbot Demo
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             Deze pagina is bedoelt als een demonstratie van hoe een chatbot -in plaats van de huidige zoekbalk- in de huidige homepage geintegreerd kan worden {" "}
@@ -24,7 +24,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           
           <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.08] md:w-[158px]"
+            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-sky-500 text-sky-500 px-5 transition-colors hover:border-transparent hover:bg-black/[.08] md:w-[158px]"
             href="/chat"
             target="_blank"
             rel="noopener noreferrer"

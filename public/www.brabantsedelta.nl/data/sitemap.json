@@ -1,0 +1,145 @@
+{
+  "sitemap": {
+    "titel": "Waterschap Brabantse Delta",
+    "url": "https://www.brabantsedelta.nl/",
+    "secties": [
+      {
+        "titel": "Home",
+        "url": "https://www.brabantsedelta.nl/"
+      },
+      {
+        "titel": "Aanvragen en regelen",
+        "url": "https://www.brabantsedelta.nl/aanvragen-en-regelen",
+        "paginas": [
+          {
+            "titel": "Waterschapsbelasting",
+            "url": "https://www.brabantsedelta.nl/waterschapsbelasting",
+            "subpaginas": [
+              {
+                "titel": "Bezwaar maken tegen waterschapsbelasting",
+                "url": "https://www.brabantsedelta.nl/bezwaar-maken-tegen-waterschapsbelasting"
+              },
+              {
+                "titel": "Automatische incasso regelen of wijzigen",
+                "url": "https://www.brabantsedelta.nl/automatische-incasso-regelen-of-wijzigen"
+              },
+              {
+                "titel": "Kwijtschelding aanvragen",
+                "url": "https://www.brabantsedelta.nl/kwijtschelding-aanvragen"
+              }
+            ]
+          },
+          {
+            "titel": "Bezwaar en Beroep",
+            "url": "https://www.brabantsedelta.nl/bezwaar-maken",
+            "subpaginas": [
+              { "titel": "In gebreke stellen", "url": "https://www.brabantsedelta.nl/in-gebreke-stellen" },
+              { "titel": "Zienswijze indienen", "url": "https://www.brabantsedelta.nl/zienswijze-indienen" }
+            ]
+          },
+          {
+            "titel": "Melding of klacht",
+            "url": "https://www.brabantsedelta.nl/melding-of-klacht",
+            "subpaginas": [
+              { "titel": "Melding doen over water", "url": "https://www.brabantsedelta.nl/melding-doen-over-water" },
+              { "titel": "Overtreding melden", "url": "https://www.brabantsedelta.nl/overtreding-melden" },
+              { "titel": "Schadevergoeding aanvragen", "url": "https://www.brabantsedelta.nl/schadevergoeding-aanvragen" }
+            ]
+          },
+          {
+            "titel": "Subsidies",
+            "url": "https://www.brabantsedelta.nl/subsidies",
+            "subpaginas": [
+              { "titel": "Subsidie natuur- of landschapsbehoud", "url": "https://www.brabantsedelta.nl/subsidie-natuur-of-landschapsbehoud" },
+              { "titel": "Subsidie klimaat en water", "url": "https://www.brabantsedelta.nl/subsidie-klimaat-en-water" }
+            ]
+          },
+          {
+            "titel": "Vergunningen",
+            "url": "https://www.brabantsedelta.nl/vergunningen",
+            "subpaginas": [
+              { "titel": "Omgevingsvergunning wateractiviteit", "url": "https://www.brabantsedelta.nl/omgevingsvergunning-wateractiviteit" },
+              { "titel": "Lozen en onttrekken van water", "url": "https://www.brabantsedelta.nl/lozen-en-onttrekken-van-water" },
+              { "titel": "Scheepvaartvergunning", "url": "https://www.brabantsedelta.nl/scheepvaartvergunning" }
+            ]
+          },
+          {
+            "titel": "Vastgoed",
+            "url": "https://www.brabantsedelta.nl/vastgoed"
+          }
+        ]
+      },
+      {
+        "titel": "Actueel",
+        "url": "https://www.brabantsedelta.nl/actueel",
+        "paginas": [
+          { "titel": "Nieuws", "url": "https://www.brabantsedelta.nl/nieuws" },
+          { "titel": "Bekendmakingen", "url": "https://www.brabantsedelta.nl/bekendmakingen" },
+          { "titel": "Agenda", "url": "https://www.brabantsedelta.nl/agenda" },
+          { "titel": "Werkzaamheden in jouw buurt", "url": "https://www.brabantsedelta.nl/werkzaamheden-in-jouw-buurt" },
+          { "titel": "Open Data Portaal", "url": "https://www.brabantsedelta.nl/open-data-portaal" },
+          { "titel": "Droogte en onttrekkingsverboden", "url": "https://www.brabantsedelta.nl/droogte-in-midden-en-west-brabant" },
+          { "titel": "Bedieningstijden sluizen en bruggen", "url": "https://www.brabantsedelta.nl/bedieningstijden-sluizen-en-bruggen" }
+        ]
+      },
+      {
+        "titel": "Werken bij",
+        "url": "https://www.brabantsedelta.nl/werken-bij",
+        "paginas": [
+          { "titel": "Vacatures", "url": "https://www.brabantsedelta.nl/vacatures" },
+          { "titel": "Arbeidsvoorwaarden", "url": "https://www.brabantsedelta.nl/arbeidsvoorwaarden" },
+          { "titel": "Stage", "url": "https://www.brabantsedelta.nl/stage" }
+        ]
+      },
+      {
+        "titel": "Over ons",
+        "url": "https://www.brabantsedelta.nl/over-ons",
+        "paginas": [
+          {
+            "titel": "Wat doet het waterschap?",
+            "url": "https://www.brabantsedelta.nl/wat-doet-het-waterschap",
+            "subpaginas": [
+              { "titel": "Schoon water", "url": "https://www.brabantsedelta.nl/schoon-water" },
+              { "titel": "Veilige dijken", "url": "https://www.brabantsedelta.nl/veilige-dijken" },
+              { "titel": "Voldoende water", "url": "https://www.brabantsedelta.nl/voldoende-water" },
+              { "titel": "Muskusrattenbestrijding", "url": "https://www.brabantsedelta.nl/muskusrattenbestrijding" },
+              { "titel": "Calamiteitenzorg", "url": "https://www.brabantsedelta.nl/calamiteitenzorg" }
+            ]
+          },
+          {
+            "titel": "Bestuur",
+            "url": "https://www.brabantsedelta.nl/bestuur",
+            "subpaginas": [
+              { "titel": "Algemeen bestuur", "url": "https://www.brabantsedelta.nl/algemeen-bestuur" },
+              { "titel": "Dagelijks bestuur", "url": "https://www.brabantsedelta.nl/dagelijks-bestuur" },
+              { "titel": "Vergaderingen", "url": "https://www.brabantsedelta.nl/vergaderingen-algemeen-bestuur" }
+            ]
+          },
+          { "titel": "Organisatie", "url": "https://www.brabantsedelta.nl/organisatie" },
+          { "titel": "Werkgebied", "url": "https://www.brabantsedelta.nl/werkgebied" },
+          { "titel": "Missie en visie", "url": "https://www.brabantsedelta.nl/missie-en-visie" },
+          { "titel": "Begroting en Financiën", "url": "https://www.brabantsedelta.nl/begroting-en-financien" },
+          { "titel": "Erfgoed en Archief", "url": "https://www.brabantsedelta.nl/erfgoed" }
+        ]
+      },
+      {
+        "titel": "Contact",
+        "url": "https://www.brabantsedelta.nl/contact",
+        "paginas": [
+          { "titel": "Contactformulier", "url": "https://www.brabantsedelta.nl/contactformulier" },
+          { "titel": "Routebeschrijving", "url": "https://www.brabantsedelta.nl/plan-je-route" },
+          { "titel": "Servicenormen", "url": "https://www.brabantsedelta.nl/servicenormen" }
+        ]
+      },
+      {
+        "titel": "Overige",
+        "paginas": [
+          { "titel": "Sitemap", "url": "https://www.brabantsedelta.nl/sitemap" },
+          { "titel": "Privacyverklaring", "url": "https://www.brabantsedelta.nl/privacyverklaring" },
+          { "titel": "Cookieverklaring", "url": "https://www.brabantsedelta.nl/cookieverklaring" },
+          { "titel": "Toegankelijkheid", "url": "https://www.brabantsedelta.nl/toegankelijkheid" }
+        ]
+      }
+    ]
+  }
+}

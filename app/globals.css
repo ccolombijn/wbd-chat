@@ -20,7 +20,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, "Carlito", sans-serif;
+  font-family: "Carlito", sans-serif;
+}
+
+p > a {
+  color: '#0EA5E9';
+  text-decoration: underline;
 }
 
 textarea:focus-visible {
